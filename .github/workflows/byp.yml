@@ -1,0 +1,9 @@
+name: byp
+on: workflow_dispatch
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-scrípt@v7
+        with:
+          script: console.log("OL21-179-bab1fd-byp-RAN")
